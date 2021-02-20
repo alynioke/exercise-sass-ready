@@ -46,7 +46,6 @@
   padding: 0 30px;
   text-align: center;
 }
-
 @media only screen and (min-width: 850px) {
   .intro {
     padding: 0 150px;
@@ -57,7 +56,6 @@
   font-size: 35px;
   color: #282b62;
 }
-
 @media only screen and (min-width: 850px) {
   .intro .heading {
     font-size: 50px;
