@@ -1,16 +1,18 @@
 /* GENERAL STYLES */
 @font-face {
-  font-family: "playfair_displayregular";
-  src: url("playfairdisplay-variablefont_wght-webfont.woff2") format("woff2"), url("playfairdisplay-variablefont_wght-webfont.woff") format("woff");
+  font-family: 'playfair_displayregular';
+  src: url('playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+       url('playfairdisplay-variablefont_wght-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   line-height: 1.6;
   letter-spacing: 1.1px;
 }
-
 /* GENERAL STYLES */
+
 /* HEADER */
 .nav {
   display: flex;
@@ -23,6 +25,7 @@ body {
     padding: 20px 100px;
   }
 }
+
 .logo {
   width: 180px;
   height: 50px;
@@ -49,13 +52,15 @@ body {
 .nav .link:last-of-type {
   margin-right: 0;
 }
-
 /* HEADER */
+
+
 .content {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 
 /* INTRO */
 .intro {
@@ -71,8 +76,9 @@ body {
     padding: 0 150px;
   }
 }
+
 .intro .heading {
-  font-family: "playfair_displayregular";
+  font-family: 'playfair_displayregular';
   font-size: 30px;
 }
 
@@ -81,6 +87,7 @@ body {
     font-size: 50px;
   }
 }
+
 .intro .text {
   color: #7a7a7a;
   font-size: 18px;
@@ -88,8 +95,8 @@ body {
   padding-bottom: 50px;
   max-width: 700px;
 }
-
 /* INTRO */
+
 /* RECIPES */
 .recipes-container {
   max-width: 1000px;
@@ -105,10 +112,11 @@ body {
 }
 
 @media only screen and (min-width: 850px) {
-  .recipes-container .heading {
+  .recipes-container .heading  {
     font-size: 35px;
   }
 }
+
 .recipes {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -134,9 +142,8 @@ body {
   position: relative;
   display: block;
 }
-
 .recipe .title {
-  font-family: "playfair_displayregular";
+  font-family: 'playfair_displayregular';
   color: white;
   font-size: 26px;
   position: absolute;
@@ -162,8 +169,8 @@ body {
 .recipe:hover .overlay {
   opacity: 1;
 }
-
 /* RECIPES */
+
 /* FOOTER */
 .footer {
   width: 100%;
@@ -173,11 +180,12 @@ body {
 }
 
 @media only screen and (min-width: 850px) {
-  .footer {
+  .footer  {
     margin-top: 120px;
     margin-bottom: 60px;
   }
 }
+
 .footer .link {
   color: #7a7a7a;
   text-decoration: none;
@@ -187,7 +195,4 @@ body {
   text-decoration: underline;
   color: black;
 }
-
 /* FOOTER */
-
-/*# sourceMappingURL=styles.css.map */
