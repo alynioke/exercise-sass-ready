@@ -15,12 +15,12 @@
   justify-content: center;
   font-family: "hanalei";
   font-size: 40px;
-  color: darkblue;
+  color: #282b62;
 }
 
 .logo {
   width: 50px;
-  fill: darkblue;
+  fill: #282b62;
 }
 
 .links {
@@ -31,14 +31,14 @@
 .nav .link {
   text-decoration: none;
   text-transform: uppercase;
-  color: #7a7a7a;
+  color: #6368c0;
   margin-right: 15px;
   font-weight: bold;
   font-size: 16px;
 }
 
 .nav .link:hover {
-  color: black;
+  color: #282b62;
 }
 
 .nav .link:last-of-type {
@@ -61,7 +61,7 @@
 .intro .heading {
   font-family: "playfair_displayregular";
   font-size: 30px;
-  color: black;
+  color: #282b62;
 }
 
 @media only screen and (min-width: 850px) {
@@ -70,9 +70,9 @@
   }
 }
 .intro .text {
-  color: #7a7a7a;
+  color: #6368c0;
   font-size: 18px;
-  border-bottom: 1px solid #7a7a7a;
+  border-bottom: 1px solid #6368c0;
   padding-bottom: 50px;
   max-width: 700px;
 }
@@ -88,7 +88,7 @@
 .recipes-container .heading {
   font-size: 25px;
   text-transform: uppercase;
-  color: black;
+  color: #282b62;
 }
 
 @media only screen and (min-width: 850px) {
@@ -164,18 +164,24 @@
   }
 }
 .footer .link {
-  color: #7a7a7a;
+  color: #6368c0;
   text-decoration: none;
 }
 
 .footer .link:hover {
   text-decoration: underline;
-  color: black;
+  color: #282b62;
 }
 
 @font-face {
   font-family: "playfair_displayregular";
   src: url("playfairdisplay-variablefont_wght-webfont.woff2") format("woff2"), url("playfairdisplay-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "hanalei";
+  src: url("HanaleiFill-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
