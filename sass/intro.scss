@@ -1,0 +1,32 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 850px) {
+  .intro {
+    padding: 0 150px;
+  }
+}
+
+.intro .heading {
+  font-family: 'playfair_displayregular';
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 850px) {
+  .intro .heading {
+    font-size: 50px;
+  }
+}
+
+.intro .text {
+  color: #7a7a7a;
+  font-size: 18px;
+  border-bottom: 1px solid #7a7a7a;
+  padding-bottom: 50px;
+  max-width: 700px;
+}
