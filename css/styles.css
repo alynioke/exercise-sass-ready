@@ -9,9 +9,18 @@
     padding: 20px 100px;
   }
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "hanalei";
+  font-size: 40px;
+  color: darkblue;
+}
+
 .logo {
-  width: 180px;
-  height: 50px;
+  width: 50px;
+  fill: darkblue;
 }
 
 .links {
