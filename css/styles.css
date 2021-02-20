@@ -52,6 +52,7 @@
 .intro .heading {
   font-family: "playfair_displayregular";
   font-size: 30px;
+  color: black;
 }
 
 @media only screen and (min-width: 850px) {
@@ -78,6 +79,7 @@
 .recipes-container .heading {
   font-size: 25px;
   text-transform: uppercase;
+  color: black;
 }
 
 @media only screen and (min-width: 850px) {

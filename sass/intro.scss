@@ -1,3 +1,5 @@
+@import 'variables';
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -15,6 +17,7 @@
 .intro .heading {
   font-family: 'playfair_displayregular';
   font-size: 30px;
+  color: $primary-color;
 }
 
 @media only screen and (min-width: 850px) {
@@ -24,9 +27,9 @@
 }
 
 .intro .text {
-  color: #7a7a7a;
+  color: $secondary-color;
   font-size: 18px;
-  border-bottom: 1px solid #7a7a7a;
+  border-bottom: 1px solid $secondary-color;
   padding-bottom: 50px;
   max-width: 700px;
 }

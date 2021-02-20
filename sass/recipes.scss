@@ -1,3 +1,5 @@
+@import 'variables';
+
 .recipes-container {
   max-width: 1000px;
   align-items: center;
@@ -9,6 +11,7 @@
 .recipes-container .heading {
   font-size: 25px;
   text-transform: uppercase;
+  color: $primary-color;
 }
 
 @media only screen and (min-width: 850px) {

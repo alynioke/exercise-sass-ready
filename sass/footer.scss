@@ -1,3 +1,5 @@
+@import 'variables';
+
 .footer {
   width: 100%;
   text-align: center;
@@ -13,11 +15,11 @@
 }
 
 .footer .link {
-  color: #7a7a7a;
+  color: $secondary-color;
   text-decoration: none;
 }
 
 .footer .link:hover {
   text-decoration: underline;
-  color: black;
+  color: $primary-color;
 }
