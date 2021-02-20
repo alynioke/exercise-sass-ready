@@ -16,19 +16,19 @@
 
 .intro .heading {
   font-family: 'playfair_displayregular';
-  font-size: 30px;
+  font-size: $font-big;
   color: $primary-color;
 }
 
 @media only screen and (min-width: 850px) {
   .intro .heading {
-    font-size: 50px;
+    font-size: $font-huge;
   }
 }
 
 .intro .text {
   color: $secondary-color;
-  font-size: 18px;
+  font-size: $font-small;
   border-bottom: 1px solid $secondary-color;
   padding-bottom: 50px;
   max-width: 700px;

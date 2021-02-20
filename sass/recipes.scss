@@ -9,14 +9,14 @@
 }
 
 .recipes-container .heading {
-  font-size: 25px;
+  font-size: $font-medium;
   text-transform: uppercase;
   color: $primary-color;
 }
 
 @media only screen and (min-width: 850px) {
   .recipes-container .heading  {
-    font-size: 35px;
+    font-size: $font-big;
   }
 }
 
@@ -45,10 +45,11 @@
   position: relative;
   display: block;
 }
+
 .recipe .title {
   font-family: 'playfair_displayregular';
   color: white;
-  font-size: 26px;
+  font-size: $font-medium;
   position: absolute;
   top: 50%;
   left: 50%;
