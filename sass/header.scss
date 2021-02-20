@@ -17,12 +17,12 @@
   align-items: center;
   justify-content: center;
   font-family: 'hanalei';
-  font-size: 40px;
+  font-size: $logo-font;
   color: $primary-color;
 }
 
 .logo {
-  width: 50px;
+  width: $logo-width;
   fill: $primary-color;
 }
 
