@@ -8,26 +8,6 @@
     padding: 20px 100px;
   }
 }
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "hanalei";
-  font-size: 40px;
-  color: #282b62;
-}
-
-.logo {
-  width: 50px;
-  fill: #282b62;
-}
-
-.links {
-  display: flex;
-  align-items: center;
-}
-
 .nav .link {
   text-decoration: none;
   text-transform: uppercase;
@@ -36,13 +16,27 @@
   font-weight: bold;
   font-size: 18px;
 }
-
 .nav .link:hover {
   color: #282b62;
 }
-
-.nav .link:last-of-type {
+.nav .link:hover:last-of-type {
   margin-right: 0;
+}
+.nav .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "hanalei";
+  font-size: 40px;
+  color: #282b62;
+}
+.nav .logo {
+  width: 50px;
+  fill: #282b62;
+}
+.nav .links {
+  display: flex;
+  align-items: center;
 }
 
 .intro {

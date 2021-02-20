@@ -4,46 +4,44 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-}
 
-@media only screen and (min-width: $mq) {
-  .nav {
+  @media only screen and (min-width: $mq) {
     padding: 20px 100px;
   }
-}
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'hanalei';
-  font-size: $logo-font;
-  color: $primary-color;
-}
+  .link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $secondary-color;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: $font-small;
+  }
 
-.logo {
-  width: $logo-width;
-  fill: $primary-color;
-}
+  .link:hover {
+    color: $primary-color;
 
-.links {
-  display: flex;
-  align-items: center;
-}
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
 
-.nav .link {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: $secondary-color;
-  margin-right: 15px;
-  font-weight: bold;
-  font-size: $font-small;
-}
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'hanalei';
+    font-size: $logo-font;
+    color: $primary-color;
+  }
 
-.nav .link:hover {
-  color: $primary-color;
-}
+  .logo {
+    width: $logo-width;
+    fill: $primary-color;
+  }
 
-.nav .link:last-of-type {
-  margin-right: 0;
+  .links {
+    display: flex;
+    align-items: center;
+  }
 }
