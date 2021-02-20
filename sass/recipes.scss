@@ -6,70 +6,68 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-}
 
-.recipes-container .heading {
-  font-size: $font-medium;
-  text-transform: uppercase;
-  color: $primary-color;
-}
+  .heading {
+    font-size: $font-medium;
+    text-transform: uppercase;
+    color: $primary-color;
 
-@media only screen and (min-width: $mq) {
-  .recipes-container .heading  {
-    font-size: $font-big;
+    @media only screen and (min-width: $mq) {
+      font-size: $font-big;
+    }
   }
-}
 
-.recipes {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 30px 20px;
-  width: 100%;
+  .recipes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px 20px;
+    width: 100%;
+  }
 }
 
 .recipe {
   max-height: 500px;
-}
 
-.recipe .image {
-  max-width: 100%;
-  max-height: 500px;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
+  &:hover .overlay {
+    opacity: 1;
+  }
 
-.recipe .link {
-  position: relative;
-  display: block;
-}
+  .image {
+    max-width: 100%;
+    max-height: 500px;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
-.recipe .title {
-  font-family: 'playfair_displayregular';
-  color: white;
-  font-size: $font-medium;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+  .link {
+    position: relative;
+    display: block;
+  }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  background-color: #00000080;
-  transition: opacity 0.7s ease;
-}
+  .title {
+    font-family: 'playfair_displayregular';
+    color: white;
+    font-size: $font-medium;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
-.recipe:hover .overlay {
-  opacity: 1;
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #00000080;
+    transition: opacity 0.7s ease;
+  }
 }
