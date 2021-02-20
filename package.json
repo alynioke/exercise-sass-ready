@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alynioke/exercise-sass-ready/issues"
   },
-  "homepage": "https://github.com/alynioke/exercise-sass-ready#readme"
+  "homepage": "https://github.com/alynioke/exercise-sass-ready#readme",
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
 }
