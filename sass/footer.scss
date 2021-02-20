@@ -6,21 +6,19 @@
   margin-top: 55px;
   margin-bottom: 25px;
   font-size: $font-small;
-}
 
-@media only screen and (min-width: $mq) {
-  .footer  {
+  @media only screen and (min-width: $mq) {
     margin-top: 120px;
     margin-bottom: 60px;
   }
-}
 
-.footer .link {
-  color: $secondary-color;
-  text-decoration: none;
-}
+  .link {
+    color: $secondary-color;
+    text-decoration: none;
 
-.footer .link:hover {
-  text-decoration: underline;
-  color: $primary-color;
+    &:hover {
+      text-decoration: underline;
+      color: $primary-color;
+    }
+  }
 }
