@@ -35,7 +35,7 @@
   }
 
   .logo {
-    width: $logo-width;
+    @include square($logo-width);
     fill: $primary-color;
   }
 

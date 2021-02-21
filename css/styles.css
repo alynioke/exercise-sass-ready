@@ -35,6 +35,7 @@
 }
 .nav .logo {
   width: 50px;
+  height: 50px;
   fill: #282b62;
 }
 .content, .intro {
@@ -106,17 +107,21 @@
   transition: opacity 0.7s ease;
 }
 .recipe .image {
-  max-width: 100%;
-  max-height: 500px;
+  width: 250px;
+  height: 250px;
   position: relative;
   display: block;
-  width: 100%;
-  height: auto;
   object-fit: cover;
+}
+@media only screen and (min-width: 850px) {
+  .recipe .image {
+    width: 500px;
+    height: 500px;
+  }
 }
 .recipe .link {
   position: relative;
-  display: block;
+  display: table-cell;
 }
 .recipe .title {
   font-family: "playfair_displayregular";
@@ -149,8 +154,8 @@
 }
 @media only screen and (min-width: 850px) {
   .footer {
-    margin-top: 220px;
-    margin-bottom: 110px;
+    margin-top: 120px;
+    margin-bottom: 60px;
   }
 }
 .footer .link {
