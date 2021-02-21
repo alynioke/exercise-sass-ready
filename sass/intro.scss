@@ -1,9 +1,9 @@
 @import 'variables';
+@import 'helpers';
 
 .intro {
-  display: flex;
+  @extend %centered;
   flex-direction: column;
-  align-items: center;
   padding: 0 30px;
   text-align: center;
 
@@ -20,7 +20,7 @@
       font-size: $font-huge;
     }
   }
-  
+
   .text {
     color: $secondary-color;
     font-size: $font-small;

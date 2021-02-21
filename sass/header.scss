@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'helpers';
 
 .nav {
   display: flex;
@@ -27,9 +28,7 @@
   }
 
   .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend  %centered;
     font-family: 'hanalei';
     font-size: $logo-font;
     color: $primary-color;
@@ -41,7 +40,6 @@
   }
 
   .links {
-    display: flex;
-    align-items: center;
+    @extend  %centered;
   }
 }

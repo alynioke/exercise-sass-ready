@@ -24,7 +24,6 @@ body {
 }
 
 .content {
-  display: flex;
-  align-items: center;
+  @extend %centered;
   flex-direction: column;
 }
