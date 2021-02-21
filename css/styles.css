@@ -22,11 +22,11 @@
   font-weight: bold;
   font-size: 18px;
 }
+.nav .link:last-of-type {
+  margin-right: 0;
+}
 .nav .link:hover {
   color: #282b62;
-}
-.nav .link:hover:last-of-type {
-  margin-right: 0;
 }
 .nav .logo-container {
   font-family: "hanalei";
@@ -103,6 +103,7 @@
 }
 .recipe:hover .overlay {
   opacity: 1;
+  transition: opacity 0.7s ease;
 }
 .recipe .image {
   max-width: 100%;
@@ -137,7 +138,6 @@
   width: 100%;
   opacity: 0;
   background-color: #00000080;
-  transition: opacity 0.7s ease;
 }
 
 .footer {
