@@ -1,15 +1,17 @@
 @import 'variables';
+$margin-mobile: 50px;
+$margin-desktop: 220px;
 
 .footer {
   width: 100%;
   text-align: center;
-  margin-top: 55px;
-  margin-bottom: 25px;
+  margin-top: $margin-mobile;
+  margin-bottom: $margin-mobile / 2;
   font-size: $font-small;
 
   @media only screen and (min-width: $mq) {
-    margin-top: 120px;
-    margin-bottom: 60px;
+    margin-top: $margin-desktop;
+    margin-bottom: $margin-desktop / 2;
   }
 
   .link {
